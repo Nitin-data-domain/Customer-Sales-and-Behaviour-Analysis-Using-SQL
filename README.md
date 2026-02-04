@@ -14,8 +14,6 @@ This project was built using the following SQL database technologies and analyti
 
 **Microsoft SQL Server** - Primary relational database management system for data storage and query execution
 
-**T-SQL (Transact-SQL)** - Query language for data analysis, aggregation, and business logic implementation
-
 **SQL Server Management Studio (SSMS)** - Integrated development environment for query development and database management
 
 **Database:** Project-3 database containing customer transaction data
@@ -421,36 +419,6 @@ This SQL analysis project showcases proficiency in the following data analytics 
 
 **Performance Optimization** - Writing efficient queries for large datasets
 
-## Repository Structure and File Organization
-
-```
-Customer-Sales-and-Behaviour-Analysis-Using-SQL/
-│
-├── SQL Queries/
-│   ├── 01_Age_Group_Revenue_Analysis.sql
-│   ├── 02_Category_Revenue_Analysis.sql
-│   ├── 03_Subscription_Impact_Analysis.sql
-│   ├── 04_Rating_Purchase_Correlation.sql
-│   ├── 05_Item_Purchase_Value_Analysis.sql
-│   ├── 06_Seasonal_Revenue_Analysis.sql
-│   ├── 07_Payment_Method_Analysis.sql
-│   ├── 08_Shipping_Rating_Analysis.sql
-│   ├── 09_Location_Revenue_Analysis.sql
-│   ├── 10_Multi_Factor_Optimization.sql
-│   └── Complete_Analysis_Script.sql
-│
-├── Documentation/
-│   ├── Data_Dictionary.md
-│   ├── Business_Requirements.md
-│   └── Analysis_Findings.pdf
-│
-├── Results/
-│   ├── Query_Results_Screenshots/
-│   └── Export_Data_CSV/
-│
-└── README.md
-```
-
 ## How to Use This SQL Analysis Project
 
 **Step 1: Download Dataset**
@@ -481,36 +449,6 @@ Modify CASE statement thresholds for age groups based on your customer demograph
 **Step 7: Schedule Recurring Analysis**
 
 Save queries as stored procedures for automated execution. Schedule regular reports using SQL Server Agent or similar tools. Track metrics over time to measure improvement initiatives. Update stakeholders with monthly or quarterly insight summaries.
-
-## Sample Query Results and Expected Outputs
-
-**Age Group Revenue Analysis Output:**
-```
-age_group    | total_revenue
--------------|---------------
-25-40        | $1,245,678
-41-60        | $987,432
-Below 25     | $654,321
-60+          | $345,890
-```
-
-**Category Revenue Analysis Output:**
-```
-Category     | Total_Revenue
--------------|---------------
-Electronics  | $2,456,789
-Clothing     | $1,876,543
-Home & Garden| $1,234,567
-Sports       | $876,432
-```
-
-**Subscription Impact Output:**
-```
-Subscription_Status | avg_spend | total_spend
---------------------|-----------|-------------
-Subscribed          | $125.45   | $3,456,789
-Not Subscribed      | $87.23    | $2,345,678
-```
 
 ## Business Impact and ROI
 
@@ -596,10 +534,9 @@ Not Subscribed      | $87.23    | $2,345,678
 
 **Specialization:** SQL Analytics, Business Intelligence, Customer Behavior Analysis
 
-**Email:** [Your Email Address]
+**Email:** nitin219027@gmail.com
 
-**LinkedIn:** [Your LinkedIn Profile URL]
-
+**LinkedIn:** https://www.linkedin.com/in/nitingirdhar/
 **GitHub:** https://github.com/Nitin-data-domain
 
 **Portfolio:** Explore more SQL and Power BI projects in my GitHub repositories
